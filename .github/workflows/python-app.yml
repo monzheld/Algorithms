@@ -32,7 +32,7 @@ jobs:
     - name: Run update README.md file
       run: |
         git config --local user.email "monzheld@gmail.com"
-        git config --local user.name "monzheld"
+        git config --local user.name "monzheld" 
         git status
         git add README.md
         git diff
