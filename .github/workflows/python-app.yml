@@ -34,7 +34,7 @@ jobs:
         git config --local user.email "monzheld@gmail.com"
         git config --local user.name "monzheld" 
         git status
-        git add Algorithms/README.md
+        git add README.md
         git diff
         git commit -m "docs: Update README.md file"
         git push
