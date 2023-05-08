@@ -26,7 +26,13 @@ def count_solved_problems():
     code_cnt_info = defaultdict(lambda:0) 
 
     for name in name_list:
-        code_list = [file for file in os.listdir(f"./{name}") if file.endswith(".ipynb")] 
+        # 사이트별 전체 ipynb 파일 리스트
+        file_list = [file for file in os.listdir(f"./{name}") if file.endswith(".ipynb")] 
+        # 중복된 파일 제거 
+        code_list = [] # 중복 제거된 ipynb 파일 리스트
+        for file in file_list:
+            if file not in code_list:
+                code_list.append(file)
         code_dict[name] = code_list 
         code_cnt_info[name] = len(code_list) 
         solved_problem_list += code_list 
