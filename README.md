@@ -1,8 +1,8 @@
 # Algorithms
 파이썬 알고리즘 문제 풀이
 ### Since 2022.12.13 ~
-### 해결한 총 문제 수 : 168개
-- BAEKJOON - 119개
+### 해결한 총 문제 수 : 169개
+- BAEKJOON - 120개
 - PROGRAMMERS - 49개
 
 [알고리즘 문제 풀이 블로그](https://monzheld.tistory.com/category/%E2%8C%A8%EF%B8%8F%20Algorithms)
