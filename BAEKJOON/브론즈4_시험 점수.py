@@ -1,7 +1,0 @@
-s = sum(list(map(int, input().split())))
-t = sum(list(map(int, input().split())))
-
-if s == t:
-    print(s)
-else:
-    print(max(s, t))
